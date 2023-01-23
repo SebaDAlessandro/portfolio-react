@@ -1,0 +1,11 @@
+.footer_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    background: var(--background-grey);
+}
+
+.footer__title {
+    font-size: 0.8rem;
+}

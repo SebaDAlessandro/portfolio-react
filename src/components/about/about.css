@@ -1,0 +1,16 @@
+.about__container {
+    display: flex;
+    min-height: 400px;
+    background: var(--background-grey);
+    padding-top: 60px;
+    padding-inline: 10px;
+}
+
+.about__imagen-container {
+    display: none;
+}
+
+.about__title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}

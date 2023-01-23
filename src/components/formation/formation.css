@@ -1,0 +1,57 @@
+.formation__container {
+    display: flex;
+    flex-direction: column;
+    min-height: 400px;
+    background: var(--background-grey);
+    padding-top: 60px;
+    padding-inline: 10px;
+}
+
+.cards__containder {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 5px;
+}
+
+.card__details {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    border: 1px solid black;
+    height: 470px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.card__entity {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.card__title {
+    text-align: center;
+    font-size: 1rem;
+}
+
+.card__image {
+    max-width: 250px;
+    padding-bottom: 20px;
+}
+
+.card__technology {
+    display: flex;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+.card__item-list {
+    padding: 0 5px;
+    height: 25px;
+    font-size: 0.9rem;
+}
+
+.card__notDisplay {
+    display: none;
+}
