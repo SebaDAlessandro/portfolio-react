@@ -3,7 +3,7 @@
     flex-direction: column;
     min-height: 400px;
     background: var(--background-white);
-    padding-top: 60px;
+    padding-top: 20px;
     padding-inline: 10px;
 }
 
@@ -31,18 +31,18 @@
 
 .card__institution {
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     font-weight: bold;
 }
 
 .card__title {
     text-align: center;
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 
 .card__image {
     width: 100px;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
 }
 
 .card__status {

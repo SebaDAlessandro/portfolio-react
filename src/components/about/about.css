@@ -2,7 +2,7 @@
     display: flex;
     min-height: 400px;
     background: var(--background-grey);
-    padding-top: 60px;
+    padding-top: 20px;
     padding-inline: 10px;
 }
 
