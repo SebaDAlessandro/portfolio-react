@@ -1,12 +1,15 @@
 import React from 'react'
 import './main.css'
 import Typewriter from 'typewriter-effect';
-import IMG from '../../assets/FaceFronRed.jpg'
+import { useSelector } from 'react-redux'
 
 
 const Main = () => {
+
+    const data = useSelector((state) => state.data)
+
   return (
-    <section className='main__container'>
+    <section className='main__container' id='inicio'>
 
         <div className='main__titel-container'>
             <div className='main__title'>
@@ -17,7 +20,7 @@ const Main = () => {
                     }}
                     onInit={(typewriter) => {
                         typewriter
-                        .typeString('Hola, mi nombre es <span class="main__title-name">Sebastián DAlessandro</span>')
+                        .typeString(`Hola, mi nombre es <span class="main__title-name">${data.name}</span>`)
                         .pauseFor(2500)
                         .deleteAll()
                         .typeString('Bienvenido a mi porfolio')
@@ -28,7 +31,7 @@ const Main = () => {
                 />
             </div>
             <div className='main__photo-container'>
-                <img src={IMG} alt='Who I am' className='main__photo'/>
+                <img src={data.personalImage} alt='Who I am' className='main__photo'/>
             </div>
         </div>
 

@@ -2,9 +2,14 @@
     display: flex;
     flex-direction: column;
     min-height: 400px;
-    background: var(--background-grey);
+    background: var(--background-white);
     padding-top: 60px;
     padding-inline: 10px;
+}
+
+.formation__title{
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 .cards__containder {
@@ -18,13 +23,13 @@
     flex-direction: column;
     margin: 10px 0;
     border: 1px solid black;
-    height: 470px;
+    height: 400px;
     justify-content: center;
     align-items: center;
     padding: 5px;
 }
 
-.card__entity {
+.card__institution {
     text-align: center;
     font-size: 1.8rem;
     font-weight: bold;
@@ -36,22 +41,12 @@
 }
 
 .card__image {
-    max-width: 250px;
+    width: 100px;
     padding-bottom: 20px;
 }
 
-.card__technology {
-    display: flex;
-    padding: 0;
-    flex-wrap: wrap;
-}
-
-.card__item-list {
-    padding: 0 5px;
-    height: 25px;
+.card__status {
+    font-style: italic;
     font-size: 0.9rem;
-}
-
-.card__notDisplay {
-    display: none;
+    margin-bottom: 0.5rem;
 }

@@ -1,7 +1,7 @@
 .main__container {
     background: var(--background-ligthblue);
     background: linear-gradient(90deg, var(--background-blue) 0%, var(--background-darkblue) 73%);
-    height: 110vh;
+    height: 115vh;
     display: flex;
     padding-inline: 5px;
     align-items: center;
