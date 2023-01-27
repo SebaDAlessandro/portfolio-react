@@ -53,10 +53,17 @@ table {
 
 	--font-color-wheat: rgb(245, 222, 179);
 	--font-color-ligthblue: rgb(0, 188, 212);
+	--font-color-black: rgb(13, 13, 13);
+	--font-color-paragraph: rgb(42, 42, 42);
+	--font-color-red: rgb(210,38,48);
+	--font-color-blue: rgba(9,98,121);
 
-  	--background-ligthblue: rgb(9,98,121);
+  	--background-ligthblue: rgba(9, 99, 121, 0.1);
   	--background-blue: rgba(9,98,121,1);
   	--background-darkblue: rgba(2,0,36,1);
 	--background-grey: rgb(217, 217, 217);
+	--background-darkgrey: rgb(39, 39, 39);
+	--background-blackAndGrey: rgb(10, 10, 10);
 	--background-white: rgb(247 244 244);
+	--background-yellow: rgb(255, 197, 74);
 }

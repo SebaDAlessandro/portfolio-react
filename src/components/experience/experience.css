@@ -1,0 +1,39 @@
+.experience__container {
+    display: flex;
+    flex-direction: column;
+    background: var(--background-ligthblue);
+    padding-top: 60px;
+    padding-inline: 10px
+}
+
+.experience__card-container {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+}
+
+.experience__title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.experience__card-company {
+
+}
+
+.experience__card-position {
+
+}
+
+.experience__card-details-list {
+    padding-left: 0.5rem;
+}
+
+.experience__card-item {
+    display: flex;
+}
+
+.chevron {
+    color: var(--font-color-blue);
+    font-weight: bold;
+}

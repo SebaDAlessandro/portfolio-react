@@ -3,6 +3,7 @@ import Header from '../header/Header';
 import About from '../about/About';
 import Formation from '../formation/Formation';
 import Main from '../main/Main'
+import Experience from '../experience/Experience';
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <Main />
       <About />
       <Formation />
+      <Experience />
     </>
   )
 }

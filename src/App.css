@@ -1,3 +1,4 @@
 .App {
   font-family: var(--font-roboto);
+  color: var(--font-color-paragraph);
 }

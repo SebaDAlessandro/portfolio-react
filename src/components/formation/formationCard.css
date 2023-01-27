@@ -1,0 +1,68 @@
+.formationCard__container {
+    padding: 15px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--background-darkgrey);
+    color: white;
+}
+
+.formationCard__header {
+    font-weight: bold;
+}
+
+/* .formationCard__hr {
+
+} */
+
+.formationCard__institucion {
+    padding: 5px;
+    text-align: center;
+}
+
+.formationCard__title {
+    color: var(--font-color-red);
+    text-align: center;
+}
+
+.formationCard__dates-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.formationCard__dates-key {
+    text-align: center;
+    font-weight: bold;
+}
+
+.formationCard__dates-initiation, .formationCard__dates-finished,.formationCard__dates-period {
+    color: white;
+    font-weight: 100;
+}
+
+.formationCard__description-container {
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 30px;
+    background: rgb(58 58 58 / 50%);
+}
+
+.formationCard__description-title {
+    font-weight: bold;
+}
+
+/* .formationCard__description-item {
+
+} */
+
+.formationCard__button {
+    background: none;
+    color: white;
+    border: 1px solid white;
+    padding: 2px 50px;
+}
+
+.formationCard__button:hover {
+    color:black;
+    background: white;
+}

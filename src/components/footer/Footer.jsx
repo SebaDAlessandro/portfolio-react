@@ -9,8 +9,7 @@ const Footer = () => {
 
   return (
     <footer className='footer_container'>
-      {console.log(data)}
-      <h1 className='footer__title'>{`Desarrollado por ${data.name} - 2022`}</h1>
+      <h1 className='footer__title'>{`Desarrollado por ${data.name} - 2023`}</h1>
     </footer>
   )
 }
