@@ -18,11 +18,31 @@
 }
 
 .experience__card-company {
-
+    background: rgba(2,0,36,1);
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
 }
 
 .experience__card-position {
+    font-size: 1rem;
+    font-weight: bold;
+}
 
+.experience__card-dates {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+.experience__card-key {
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+
+.experience__card-details-title {
+    font-size: 1rem;
+    text-decoration: underline;
 }
 
 .experience__card-details-list {

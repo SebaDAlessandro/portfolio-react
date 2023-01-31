@@ -1,8 +1,9 @@
 import './App.css';
+import { Route, Routes } from 'react-router-dom';
 import Footer from './components/footer/Footer';
 import FormationCard from './components/formation/FormationCard';
 import Home from './components/home/Home';
-import { Route, Routes } from 'react-router-dom';
+import SuccessCard from './components/experience/SuccessCard';
 
 function App() {
   return (
@@ -15,6 +16,10 @@ function App() {
         <Route 
           path= "/FormationDetail/:id"
           element={<FormationCard />}
+        />
+        <Route 
+          path= "/successDetail/:id"
+          element={<SuccessCard />}
         />
       </Routes> 
       <Footer />
