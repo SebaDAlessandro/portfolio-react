@@ -1,0 +1,109 @@
+.projects__container {
+    padding-top: 60px;
+    padding-inline: 10px;
+    background: var(--background-darkblue);
+    color: white;
+}
+
+.projects__title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.projects__dashboard {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-roboto);
+}
+
+.projects__item-container {
+    max-width: 290px;
+    min-height: 400px;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.projects__item-title {
+    font-size: 1.1rem;
+    text-align: center;
+    padding-top: 5px;
+    font-weight: bold;
+}
+
+.projects__item-image {
+    padding: 3px;
+    width: 95%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    filter: saturate(0.6);
+    -webkit-filter: saturate(0.6);
+}
+
+.projects__item-image:hover {
+    border: 1px solid blue;
+    filter: saturate(1.1);
+    -webkit-filter: saturate(1.1);
+}
+
+.projects__item-description-key {
+    font-size: .9rem;
+    text-align: center;
+}
+
+.projects__item-description-value {
+    color: var(--font-color-gray);
+}
+
+.projects__item-technologies-key {
+    font-size: .9rem;
+    color: var(--font-color-ligthblue);
+    text-align: center;
+}
+
+.projects__item-technologies-value {
+    color: white;
+}
+
+.projects__item-access {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.projects__item-access-repo, .projects__item-access-demo {
+    text-decoration: none;
+    color: var(--font-color-ligthblue);
+    font-size: 1.5rem;
+}
+
+.projects__item-hr {
+    color: red;
+}
+
+@media screen and (min-width: 768px) {
+
+    .projects__container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .projects__container-data {
+        width: 85vw;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    .projects__container-data {
+        width: 75vw;
+    }
+
+}

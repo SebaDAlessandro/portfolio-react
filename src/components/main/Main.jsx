@@ -39,9 +39,9 @@ const Main = () => {
             <p className='main__title-description'>Soy <span className='underline'>Analista Sr</span>, <span className='underline'>FrontEnd Developer</span>, un apasionado por la tecnología, el deporte al aire libre y padre de familia.</p>
                     
             <ul className='main__list-container'>
-                <li className='main__list-item'><span className="material-symbols-outlined arrow">arrow_outward</span>LinkedIn</li>
-                <li className='main__list-item'><span className="material-symbols-outlined arrow">arrow_outward</span>GitHub</li>
-                <li className='main__list-item'><span className="material-symbols-outlined arrow">arrow_outward</span>Curriculum</li>
+                <li className='main__list-item'><a href="https://www.linkedin.com/in/sebadalessandro/" target='_blank' rel='noreferrer' className='main__list-link'><span className="material-symbols-outlined arrow">arrow_outward</span>LinkedIn</a></li>
+                <li className='main__list-item'><a href="https://github.com/SebaDAlessandro" target='_blank' rel='noreferrer' className='main__list-link'><span className="material-symbols-outlined arrow">arrow_outward</span>GitHub</a></li>
+                <li className='main__list-item'><a href="https://drive.google.com/drive/folders/1Vr655-Cbyq-bOrC6gegBKxofFsn4h12F?lfhs=2" target='_blank' rel='noreferrer' className='main__list-link'><span className="material-symbols-outlined arrow">arrow_outward</span>Curriculum</a></li>
             </ul>
         </div>
     </section>

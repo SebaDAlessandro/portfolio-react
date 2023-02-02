@@ -67,6 +67,11 @@
     align-items: center;
 }
 
+.main__list-link {
+    text-decoration: none;
+    color: wheat;
+}
+
 .arrow {
     padding-right: 5px;
     font-size: 0.8rem;
@@ -79,8 +84,35 @@
 
 @media screen and (min-width: 768px) {
 
+    .main__container {
+        justify-content: space-evenly;
+        height: 100vh;
+        padding-top: 75px;
+    }
+
     .main__titel-container {
         flex-direction: row;
+        align-items: center;
+    }
+
+    .main__details-container{
+        margin: 0;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    .main__titel-container {
+        width: 55vw;
+    }
+
+    .main__details-container {
+        width: 65vw;
+    }
+
+    .main__photo-container {
+        width: 25vw;
     }
 
 }

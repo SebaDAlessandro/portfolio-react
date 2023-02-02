@@ -4,6 +4,9 @@ import About from '../about/About';
 import Formation from '../formation/Formation';
 import Main from '../main/Main'
 import Experience from '../experience/Experience';
+import HardSkills from '../hardSkills/HardSkills';
+import Hobbys from '../hobbys/Hobbys';
+import Projects from '../projects/Projects';
 
 const Home = () => {
   return (
@@ -12,7 +15,10 @@ const Home = () => {
       <Main />
       <About />
       <Formation />
+      <HardSkills />
       <Experience />
+      <Hobbys />
+      <Projects />
     </>
   )
 }

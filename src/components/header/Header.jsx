@@ -15,8 +15,8 @@ const Header = () => {
                 <Nav.Link href="#inicio">Inicio</Nav.Link>
                 <Nav.Link href="#about">Sobre mí</Nav.Link>
                 <Nav.Link href="#formation">Formación</Nav.Link>
-                <Nav.Link href="#experience">Experiencia</Nav.Link>
                 <Nav.Link href="#hardSkills">Habilidades Técnicas</Nav.Link>
+                <Nav.Link href="#experience">Experiencia</Nav.Link>
                 <Nav.Link href="#hobbies">Pasatiempos</Nav.Link>
                 <Nav.Link href="#projects">Proyectos</Nav.Link>
                 <Nav.Link href="#contact">Contácteme</Nav.Link>

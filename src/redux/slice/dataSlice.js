@@ -25,6 +25,19 @@ import breaking from '../../assets/foto-SAP-BreakingBad.png'
 import pokemon from '../../assets/Foto-SPA-Pokemon.png'
 import powerbi from '../../assets/foto-TabCtrol-PowerBI.png'
 import myself from '../../assets/FaceFronRed.jpg'
+import bootstrapImg from '../../assets/icons/bootstrap-icon.png'
+import officeImg from '../../assets/icons/office-icon.png'
+import excelImg from '../../assets/icons/excel-icon.png'
+import powerbiImg from '../../assets/icons/powerbi-icon.png'
+import oralceAnalyticsImg from '../../assets/icons/oracle-analytics-desktop.png'
+import notionImg from '../../assets/icons/notion-icon.png'
+import discordImg from '../../assets/icons/discord-icon.png'
+import zoomImg from '../../assets/icons/zoom.png'
+import meetImg from '../../assets/icons/meet-icon.png'
+import slackImg from '../../assets/icons/slack-icon.png'
+import library from '../../assets/libraryApp.png'
+import ecommerce from '../../assets/ecommerce-avalith.png'
+import tpAvalith from '../../assets/tp1-avalith.png'
 
 const initialState = {
    name: "Sebastián D'Alessandro",
@@ -44,7 +57,7 @@ const initialState = {
          initiation: 'Nov / 2017',
          finished: 'Oct / 2021',   
          description: ['Elaboración de Cascada de Objetivos de la Gerencia de Postventa','Control, seguimiento y análisis de KPIs para la gestación de planes estratégicos del sector de Postventa en función de la Cascada de Objetivos.','Auditor interno y formador de nuevos ingresantes.','Encargado de la gestión y seguimiento de capacitaciones técnicas de los operarios del área de servicios y mantenimiento vehicular.','Encargado de la gestión y seguimiento del mantenimiento edilicio y herramental mínimo indispensable del área de servicios y mantenimiento vehicular.','Encargado del seguimiento y control de Deudores y Cuentas Corrientes del área de Postventa.'],
-         success: ['Puedo mencionar las certificaciones Kaizen de Renault y DSI de Nissan ambas con resultados de 100% en el puntaje final. Mi participación se basó en el desarrollo de estándares y procedimientos sustentables, ademas de coordinar y acompañar a los equipos del sector de Postventa a alcanzar los objetivos planteados. Para tal fin, además, cumplí el rol de auditor interno y facilitador de nuevos ingresantes.','Participe como gestor del Tablero de Gestión Económica: Este proyecto se basó en el desarrollo de un tablero de seguimiento de facturación del sector de Postventa el cual permitió realizar un control diario y minuto a minuto de las facturaciones por los distintos canales. Este resultado se comparaba con un prorrateo del presupuesto de gastos a fin de obtener los márgenes de utilidad. Con la información en tiempo real y mediante el seguimiento constante por parte de los lideres de cada sucursal, generamos involucramiento a nivel operativo, se mejoró la elaboración de los planes de acción por parte de los jefes de sección, además de elaborar objetivos mensuales reales, alcanzables y eficientes desde la gerencia. Fue indispensable para concretar el proyecto la colaboración de las áreas de Administración y Finanzas, del Departamento de Calidad, del Departamento Comercial de Postventa y del Departamento de Sistemas. Por último, el Directorio adquirió una herramienta fundamental para la toma de decisiones a nivel macro.', 'Participe en el desarrollo de un Business Plant el cual consistió en la confección de un modelo que permitió, entro otras cuestiones, determinar el parque automotor circulante con un periodo de 10 años teniendo en cuenta la caída estándar por año de vehículos siniestrados. En función del dato resultante pudimos calcular el total de bahías de trabajo necesarios, el personal mínimo requerido (entre asesores, repuesteros,mecánicos, garantistas, etc), ademas de abastecer a los talleres con herramental necesario. Por otra parte, este análisis nos brindó la posibilidad de perfeccionar el objetivo de productividad dentro de los talleres el cual derivó, en la implementación de un CRM Boxes para el sector (el mismo tiene como finalidad generar oportunidades de trabajo bajo la prospección de clientes).','Participé en conjunto con el sector de RRHH donde tuve la responsabilidad de llevar adelante la gestión y seguimiento de las formaciones técnicas de los colaboradores del sector de servicios y mantenimiento vehicular.','Confeccionamos, junto al referente de HSMA (Higiene, Seguridad y Medio Ambiente) un plan de auditorias periódicas con puntos mínimos de revisión con el fin de detectar y prevenir de manera oportuna, incidentes indeseables dentro de los sectores de Taller y Venta de Repuestos. Por otra parte y dentro de mis funciones tuve la responsabilidad de gestionar el mantenimiento de todos los elevadores del Grupo Autosur.','Participe dentro del Departamento de Administración y Finanzas en donde colaboré como referente en todos los inventarios anuales del área de Postventa (específicamente dentro del sector Repuestos).'],
+         success: ['Puedo mencionar las certificaciones Kaizen de Renault y DSI de Nissan ambas con resultados de 100% en el puntaje final. Mi participación se basó en el desarrollo de estándares y procedimientos sustentables, ademas de coordinar y acompañar a los equipos del sector de Postventa a alcanzar los objetivos planteados. Para tal fin, además, cumplí el rol de auditor interno y facilitador de nuevos ingresantes.','Participe como gestor del Tablero de Gestión Económica: Este proyecto se basó en el desarrollo de un tablero de seguimiento de facturación del sector de Postventa el cual permitió realizar un control diario y minuto a minuto de las facturaciones por los distintos canales. Este resultado se comparaba con un prorrateo del presupuesto de gastos a fin de obtener los márgenes de utilidad. Con la información en tiempo real y mediante el seguimiento constante por parte de los lideres de cada sucursal, generamos involucramiento a nivel operativo, se mejoró la elaboración de los planes de acción por parte de los jefes de sección, además de elaborar objetivos mensuales reales, alcanzables y eficientes desde la gerencia. Fue indispensable para concretar el proyecto la colaboración de las áreas de Administración y Finanzas, del Departamento de Calidad, del Departamento Comercial de Postventa y del Departamento de Sistemas. Por último, el Directorio adquirió una herramienta fundamental para la toma de decisiones a nivel macro.', 'Participe en el desarrollo de un Business Plant el cual consistió en la confección de un modelo que permitió, entro otras cuestiones, determinar el parque automotor circulante con un periodo de 10 años teniendo en cuenta la caída estándar por año de vehículos siniestrados. En función del dato resultante pudimos calcular el total de bahías de trabajo necesarios, el personal mínimo requerido (entre asesores, repuesteros,mecánicos, garantistas, etc), ademas de abastecer a los talleres con herramental necesario. Por otra parte, este análisis nos brindó la posibilidad de perfeccionar el objetivo de productividad dentro de los talleres el cual derivó, en la implementación de un CRM Boxes para el sector (el mismo tiene como finalidad generar oportunidades de trabajo bajo la prospección de clientes).','Participé en conjunto con el sector de RRHH donde tuve la responsabilidad de llevar adelante la gestión y seguimiento de las formaciones técnicas de los colaboradores del sector de servicios y mantenimiento vehicular.','Confeccionamos, junto al referente de HSMA (Higiene, Seguridad y Medio Ambiente) un plan de auditorias periódicas con puntos mínimos de revisión con el fin de detectar y prevenir de manera oportuna, incidentes indeseables dentro de los sectores de Taller y Venta de Repuestos. Por otra parte y dentro de mis funciones tuve la responsabilidad de gestionar el mantenimiento de todos los elevadores del Grupo Autosur.'],
       },{
          id:2,
          company: 'Cervecería y Maltería Quilmes SA',
@@ -52,7 +65,7 @@ const initialState = {
          initiation: 'Dic / 2005',
          finished: 'May / 2017',  
          description: ['Control, seguimiento y análisis de KPIs para la toma de decisiones. Implementación de los planes de acción derivados de los GAP obtenidos.','Auditor interno de los distintos programas operacionales.','Gestionador del circuito de insumos de planta desde el punto de vista de calidad (desde la materia prima hasta los insumos auxiliares indirectos) incluyendo el reclamo a proveedores.','Administraba el Circuito de "no Conformes" (relacionado a reclamos de clientes, Insumos retenidos y/o Productos retenidos).','Revisaba y actualizaba cada instructivo de trabajo, procedimiento, regla de decisión y listado de acciones relacionados al sector. Participe como capacitador interno.'],
-         success: ['Puedo distinguir las certificaciones alcanzadas de VPO (Voyager Plant Optimisation), HACCP (análisis de riesgo y puntos críticos de control), BPM (Buenas Practicas de Manufactura) todas de carácter anual actuando activamente como auditor interno, elaborando los planes de acción y participando como formador en lo que fue la etapa de pre-auditorías.','Fui parte de la elaboración de Descripción de Negocio del área de Calidad, del Mapeo de Procesos del mismo, de la creación de matrices tipo RACI (gestión de Roles y Responsabilidades) y de la implementación del Programa 5S (conocido de este modo debido al nombre de sus cinco etapas, todas ellas con la letra S (en japonés), Seiri (clasificar), Seiton (ordenar), Seiso (limpiar), Seiketsu (estandarizar), Shitsuke (mantener)). Todas estapas importantes y necesarias para la certificación final VPO.','Participé dentro del área de mantenimiento junto al Planner de planta como punta estrella de ese sector: generando los esquemas de mantenimiento preventivos de los equipos y herramientas de los sectores de Elaboración, Producción y Calidad.'],
+         success: ['Puedo distinguir las certificaciones alcanzadas de VPO (Voyager Plant Optimisation), HACCP (análisis de riesgo y puntos críticos de control), BPM (Buenas Practicas de Manufactura) todas de carácter anual actuando activamente como auditor interno, elaborando los planes de acción y participando como formador en lo que fue la etapa de pre-auditorías.','Fui parte de la elaboración de Descripción de Negocio del área de Calidad, del Mapeo de Procesos del mismo, de la creación de matrices tipo RACI (gestión de Roles y Responsabilidades) y de la implementación del Programa 5S (conocido de este modo debido al nombre de sus cinco etapas, todas ellas con la letra S (en japonés), Seiri (clasificar), Seiton (ordenar), Seiso (limpiar), Seiketsu (estandarizar), Shitsuke (mantener)). Todas estapas importantes y necesarias para la certificación final VPO.','Participé dentro del área de mantenimiento junto al Planner de planta como punta estrella de ese sector, mi responsabilidad fue generar los esquemas de mantenimiento preventivos de los equipos y herramientas de los sectores de Elaboración, Producción y Calidad.'],
       },
    ],
    training:[
@@ -63,7 +76,7 @@ const initialState = {
          image: avalith,
          initiation: 'Abr / 2022',
          finished: 'Ene / 2023',
-         status:'FINALIZADO',
+         status:'Finalizado',
          period: '300 hs',
          subjects:['Estructuras de datos y algoritmos','Git - GitHub','HTML','CSS | Bootstrap','JavaScript','React','Redux Toolkit','Autenticación (con Firebase)','Conexión a Backend (con Firebase)','Metodologías Ágiles | Scrum'],
          description:'-',
@@ -74,7 +87,7 @@ const initialState = {
          image: alura,
          initiation: 'Abr / 2022',
          finished: 'Ene / 2023',
-         status:'FINALIZADO',
+         status:'Finalizado',
          period: '500 hs',
          subjects:['Lógica de programación','HTML5','CSS3','JavaScript','Git&GitHub','Administración de MySQL: Seguridad y optimización de la base de datos','Python','Data Science en OCI','Oracle Analytics','Pitch para entrevistas','Hábitos','Foco','Gestión ágil','Emprendimiento','Fundamentos de agilidad','Hábitos de liderazgo','La empresa ágil','Business Model Canvas','Lean Startup','Organización de equipos ágiles','Productividad','Ciclo de vida del producto','LinkedIn','Emprendimiento'],
          description:'-',
@@ -85,7 +98,7 @@ const initialState = {
          image: henry,
          initiation: 'Oct / 2017',
          finished: 'Mar / 2022',
-         status:'EN PAUSA',
+         status:'En Pausa',
          period: '700 hs',
          subjects:['Estructuras de datos y algoritmos','Git - GitHub','HTML','CSS | SASS | Less | Bootstrap','JavaScript','React','Redux','Node','Express','PostgreSQL','Sequelize','Metodologías Ágiles | Scrum'],
          description:'-',
@@ -96,7 +109,7 @@ const initialState = {
          image: cet,
          initiation: 'Mar / 2004',
          finished: 'Nov / 2005',
-         status:'FINALIZADO',
+         status:'Finalizado',
          period: '2 años',
          subjects:['Filosofía de la Ciencia','Química General y Aplicada','Elementos de la Matemática y Física','Biología General','Química Orgánica y Biológica','Química Analítica I','Introducción a la Computación','Inglés Técnico','Química Analítica II','Ética y Deontología','Técnicas de Laboratorio'],
          description:'El terminar la carrera con un promedio general de 9,09, facilitó que sea tenido en cuenta para ingresar a Cervecería y Maltería Quilmes.',
@@ -107,7 +120,7 @@ const initialState = {
          image: uniSiglo21,
          initiation: 'Mar / 2011',
          finished: 'Mar / 2013',
-         status:'INCOMPLETO',
+         status:'Incompleto',
          period: '2 años',
          subjects: ['Matemática, Desarrollo Emprendedor','Psicología Social','Recursos Informáticos','Organización y Sistemas','Administración I','Herramientas Matemáticas I – Álgebra','Sistemas de Información Organizacional','Herramientas Matemáticas II – Análisis'],
          description:['En febrero de 2013 nació mi hija y la vida me llevo a priorizar. La decisión fue sencilla... En 2016 retomé mis estudios pero con el cierre de la empresa CMQ en 2017 tuve que volver a empezar desde lo laborar, con lo cual, tuve que postergar mis estudios nuevamente. El terminar una carrera universitaria es algo que me debo a mi mismo y se que en algún momento las condiciones serán las necesarias para retomar y continuar desde donde dejé. Por este motivo, celebro aquellas empresas que apuestan al desarrollo de sus equipos.'],
@@ -118,7 +131,7 @@ const initialState = {
          image: uniNacional,
          initiation: 'Feb / 2001',
          finished: 'Jun / 2003',
-         status:'INCOMPLETO',
+         status:'Incompleto',
          period: '2 años aprox.',
          subjects: ['No dispongo del temario aprobado...'],
          description:['Luego de la crisis del 2001/2002 a mi familia le fue muy difícil soportar económicamente mi educación en la ciudad de Bahía Blanca. Al regresar, me encontré con la necesidad de aportar en mi hogar. Esto me llevo a trabajar durante la mañana en un depósito de insumos para kioscos. Durante el 2004 y por la tarde, comencé a estudiar la carrera de Técnico Laboratorista y durante las noches, a cursar la Tecnicadura de Reparador de PC.'],
@@ -151,8 +164,48 @@ const initialState = {
          image: reduxImg,
       },{
          id:7,
+         skill:'Booststrap',
+         image: bootstrapImg,
+      },{
+         id:8,
          skill:'My SQL',
          image: mysqlImg,
+      },{
+         id:9,
+         skill:'Office',
+         image: officeImg,
+      },{
+         id:10,
+         skill:'Excel',
+         image: excelImg,
+      },{
+         id:11,
+         skill:'PowerBI',
+         image: powerbiImg,
+      },{
+         id:12,
+         skill:'Oracle Analytics Desktop',
+         image: oralceAnalyticsImg,
+      },{
+         id:13,
+         skill:'Notrion',
+         image: notionImg,
+      },{
+         id:14,
+         skill:'Discord',
+         image: discordImg,
+      },{
+         id:15,
+         skill:'Zoom',
+         image: zoomImg,
+      },{
+         id:16,
+         skill:'Meet',
+         image: meetImg,
+      },{
+         id:17,
+         skill:'Slack',
+         image: slackImg,
       }
    ],
    hobbys:[
@@ -189,8 +242,8 @@ const initialState = {
    projects:[
       {
          id:1,
-         title:'Juego del Ahorcado',
-         description: '2do Challenge de Oracle - Alura Latam',
+         title:'Juego del Ahorcado (for desktop)',
+         description: 'Challenge de Oracle - Alura Latam',
          image: ahorcado,
          repositorio: 'https://github.com/SebaDAlessandro/ahorcado_alura',
          demo: 'https://sebadalessandro.github.io/ahorcado_alura/',
@@ -227,6 +280,30 @@ const initialState = {
          repositorio: '',
          demo: 'https://www.youtube.com/watch?v=COvIFUAva3Y',
          technologies: 'PowerBI'
+      },{
+         id:6,
+         title:'Library App Avalith',
+         description: 'Proyecto grupal',
+         image: library,
+         repositorio: 'https://github.com/lemarchesi09/sf-library-app',
+         demo: 'https://sf-library-app.netlify.app/',
+         technologies: 'HTML - CSS - JavaScript - React - Redux Toolkit - Firebase - Sweetalert2'
+      },{
+         id:7,
+         title:'E-commerce Avalith',
+         description: 'Proyecto grupal',
+         image: ecommerce,
+         repositorio: 'https://github.com/Ferclemens/Context-EcommerceApp-SkillFactory',
+         demo: 'https://ecommerce-app-skill-factory.vercel.app/',
+         technologies: 'HTML - CSS - JavaScript - React - Redux Toolkit - Context - Bootstrap - Firebase - Sweetalert2'
+      },{
+         id:8,
+         title:'TP1 - Avalith',
+         description: 'Proyecto individual',
+         image: tpAvalith,
+         repositorio: 'https://github.com/SebaDAlessandro/tp1-skillfactory-react',
+         demo: 'https://sebadalessandro.github.io/TP1_Skill_Factory/',
+         technologies: 'HTML - CSS - JavaScript - React'
       },
    ]
 }

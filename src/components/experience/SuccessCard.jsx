@@ -21,22 +21,24 @@ const SuccessCard = () => {
 
   return (
     <section className='successCard__container'>
-      <h1 className='successCard__company'>{experience.company}</h1>
-      {experience.success.map((item, index)=>{
-        return(
-          <div key={index}>
-          <Accordion defaultActiveKey={toString(index)}>
-          <Accordion.Item eventKey={index}>
-            <Accordion.Header>Logro destacado Nro {index+1}</Accordion.Header>
-            <Accordion.Body>
-              {item}
-            </Accordion.Body>
-          </Accordion.Item>
-        </Accordion>
-        </div>
-        )
-      })}
-      <button className='successCard__button' onClick={back}>Back</button>
+      <div className='successCard__container-data'>
+        <h1 className='successCard__company'>{experience.company}</h1>
+        {experience.success.map((item, index)=>{
+          return(
+            <div key={index}>
+            <Accordion defaultActiveKey={toString(index)}>
+            <Accordion.Item eventKey={index}>
+              <Accordion.Header>Logro destacado Nro {index+1}</Accordion.Header>
+              <Accordion.Body>
+                {item}
+              </Accordion.Body>
+            </Accordion.Item>
+          </Accordion>
+          </div>
+          )
+        })}
+        <button className='successCard__button' onClick={back}>Volver</button>
+      </div>
     </section>
   )
 }

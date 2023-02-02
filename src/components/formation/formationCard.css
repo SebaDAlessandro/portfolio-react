@@ -11,17 +11,13 @@
     font-weight: bold;
 }
 
-/* .formationCard__hr {
-
-} */
-
 .formationCard__institucion {
     padding: 5px;
     text-align: center;
 }
 
 .formationCard__title {
-    color: var(--font-color-red);
+    color: var(--font-color-ligthblue);
     text-align: center;
 }
 
@@ -51,10 +47,6 @@
     font-weight: bold;
 }
 
-/* .formationCard__description-item {
-
-} */
-
 .formationCard__button {
     background: none;
     color: white;
@@ -65,4 +57,20 @@
 .formationCard__button:hover {
     color:black;
     background: white;
+}
+
+@media screen and (min-width: 768px) {
+
+    .formationCard__container-data {
+        width: 65vw;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    .formationCard__container-data {
+        width: 45vw;
+    }
+
 }
