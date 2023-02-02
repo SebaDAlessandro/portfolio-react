@@ -1,0 +1,26 @@
+.errorPage__container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.errorPage__container-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 20px;
+    text-align: center;
+}
+
+.errorPage__title {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.errorPage__info-back {
+    color: var(--font-color-blue);
+}

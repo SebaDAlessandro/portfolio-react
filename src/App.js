@@ -4,6 +4,8 @@ import Footer from './components/footer/Footer';
 import FormationCard from './components/formation/FormationCard';
 import Home from './components/home/Home';
 import SuccessCard from './components/experience/SuccessCard';
+import ErrorPage from './components/error/ErrorPage';
+import Contact from './components/contact/Contact';
 
 function App() {
   return (
@@ -20,6 +22,14 @@ function App() {
         <Route 
           path= "/successDetail/:id"
           element={<SuccessCard />}
+        />
+        <Route 
+          path= '/contact'
+          element={<Contact />}
+        />
+        <Route
+          path='*'
+          element={<ErrorPage />}
         />
       </Routes> 
       <Footer />

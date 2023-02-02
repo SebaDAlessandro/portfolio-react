@@ -1,3 +1,16 @@
 .navbar__container {
     width: 100%;
 }
+
+.navbar__contact {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--font-color-ligthblue);
+    padding: 0.5rem
+}
+
+.navbar__contact:hover {
+    color: var(--font-color-ligthblue);
+    font-weight: bold;
+}

@@ -1,0 +1,135 @@
+.contact__container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+    background: var(--background-blue);
+    color: white;
+}
+
+.contact__container-data {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form__container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form__title__contact {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.form__input-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__input-title {
+    font-size: 1.1rem;
+}
+
+.form__input {
+    width: 85vw;
+    margin-bottom: 5px;
+    background: white;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.form__input-error {
+    color: var(--bs-info);
+    display: flex;
+    font-size: 0.7rem;
+    justify-content: flex-start;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form__textarea-section {
+
+}
+
+.form__textarea {
+    width: 85vw;
+    margin: 5px 0;
+    background: white;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.button__send, .button__back {
+    margin-bottom: 15px;
+    align-items: center;
+    background: var(--background-blackAndGrey);
+    border: 1px solid white;
+    border-radius: 10px;
+    color: var(--bs-info);
+    display: flex;
+    font-weight: bolder;
+    height: 1.7rem;
+    justify-content: center;
+    margin-top: 5px;
+    transition: 0.5s;
+    width: 150px;
+}
+
+.button__send:hover, .button__back:hover {
+    background: var(--bs-info);
+    color: white;
+}
+
+.contact__details {
+    display: flex;
+    width: 95vw;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact__details-name {
+    text-align: center;
+    font-weight: bold;
+}
+
+.contact__details-email {
+
+}
+
+.contact__details-cel {
+
+}
+
+.contact__details-form {
+
+}
+
+.contact__details-map {
+    width: 270px;
+    height: 240px 
+}
+
+@media screen and (min-width: 768px) {
+
+    .contact__details-map {
+        width: 500px;
+        padding-bottom: 15px;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    .contact__container-data {
+        width: 75vw;
+    }
+
+    .form__input, .form__textarea {
+        width: 45vw;
+    }
+}

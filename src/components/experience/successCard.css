@@ -13,6 +13,22 @@
 
 .successCard__button {
     margin: 15px;
+    align-items: center;
+    background: black;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    font-weight: bolder;
+    height: 1.7rem;
+    justify-content: center;
+    transition: 0.5s;
+    width: 150px;
+}
+
+.successCard__button:hover {
+    background: white;
+    color: black;
 }
 
 .accordion {
