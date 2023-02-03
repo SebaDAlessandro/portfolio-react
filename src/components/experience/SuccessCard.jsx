@@ -3,6 +3,7 @@ import './successCard.css'
 import { useNavigate, useParams } from 'react-router-dom'
 import { useSelector } from 'react-redux'
 import Accordion from 'react-bootstrap/Accordion';
+import GoToTop from '../GoToTop';
 
 const SuccessCard = () => {
 
@@ -39,6 +40,7 @@ const SuccessCard = () => {
         })}
         <button className='successCard__button' onClick={back}>Volver</button>
       </div>
+      <GoToTop />
     </section>
   )
 }

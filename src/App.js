@@ -6,6 +6,8 @@ import Home from './components/home/Home';
 import SuccessCard from './components/experience/SuccessCard';
 import ErrorPage from './components/error/ErrorPage';
 import Contact from './components/contact/Contact';
+import GoToTop from './components/GoToTop';
+
 
 function App() {
   return (
@@ -33,6 +35,7 @@ function App() {
         />
       </Routes> 
       <Footer />
+      <GoToTop />
     </div>
   );
 }

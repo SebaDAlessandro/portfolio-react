@@ -4,7 +4,7 @@ import avalith from '../../assets/Avalith.png'
 import henry from '../../assets/henry-student.png'
 import cet from '../../assets/logo-cet.png'
 import uniSiglo21 from '../../assets/siglo21.png'
-import uniNacional from '../../assets/uns.png'
+//import uniNacional from '../../assets/uns.png'
 import familia from '../../assets/icons/family-icon.png'
 import correr from '../../assets/icons/running-icon.png'
 import bici from '../../assets/icons/bicycle-icon.png'
@@ -125,7 +125,7 @@ const initialState = {
          period: '2 años',
          subjects: ['Matemática, Desarrollo Emprendedor','Psicología Social','Recursos Informáticos','Organización y Sistemas','Administración I','Herramientas Matemáticas I – Álgebra','Sistemas de Información Organizacional','Herramientas Matemáticas II – Análisis'],
          description:['En febrero de 2013 nació mi hija y la vida me llevo a priorizar. La decisión fue sencilla... En 2016 retomé mis estudios pero con el cierre de la empresa CMQ en 2017 tuve que volver a empezar desde lo laborar, con lo cual, tuve que postergar mis estudios nuevamente. El terminar una carrera universitaria es algo que me debo a mi mismo y se que en algún momento las condiciones serán las necesarias para retomar y continuar desde donde dejé. Por este motivo, celebro aquellas empresas que apuestan al desarrollo de sus equipos.'],
-      },{
+      }/* ,{
          id:6,
          institution:'Universidad Nacional del Sur',
          title: 'Ingenieria en Sistemas de Programación',
@@ -136,7 +136,7 @@ const initialState = {
          period: '2 años aprox.',
          subjects: ['No dispongo del temario aprobado...'],
          description:['Luego de la crisis del 2001/2002 a mi familia le fue muy difícil soportar económicamente mi educación en la ciudad de Bahía Blanca. Al regresar, me encontré con la necesidad de aportar en mi hogar. Esto me llevo a trabajar durante la mañana en un depósito de insumos para kioscos. Durante el 2004 y por la tarde, comencé a estudiar la carrera de Técnico Laboratorista y durante las noches, a cursar la Tecnicadura de Reparador de PC.'],
-      },
+      }, */
    ],
    technicalSkills:[
       {

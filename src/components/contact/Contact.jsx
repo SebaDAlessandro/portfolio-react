@@ -8,6 +8,7 @@ import Swal from 'sweetalert2'
 import withReactContent from 'sweetalert2-react-content'
 import { AiTwotoneMail, AiFillPhone } from 'react-icons/ai'
 import { FaMapMarkerAlt } from 'react-icons/fa'
+import GoToTop from '../GoToTop';
 
 const MySwal = withReactContent(Swal)
 
@@ -134,7 +135,6 @@ const Contact = () => {
             </form>
 
             <div className='contact__details'>
-
                 <p className='contact__details-email'><AiTwotoneMail /> {data.contact.mail}</p>
                 <p className='contact__cel'><AiFillPhone /> {data.contact.celNumber}</p>
                 <p className='contact__details-form'><FaMapMarkerAlt /> {data.from}</p>
@@ -143,6 +143,7 @@ const Contact = () => {
             </div> 
             <button className="button__back" onClick={volverFc}>Volver</button>
         </div>
+        <GoToTop />
     </section>
   )
 }

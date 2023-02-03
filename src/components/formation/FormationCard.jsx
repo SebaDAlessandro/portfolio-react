@@ -3,6 +3,7 @@ import './formationCard.css'
 import { useParams } from 'react-router-dom'
 import { useSelector } from 'react-redux'
 import { useNavigate } from 'react-router-dom'
+import GoToTop from '../GoToTop'
 
 const FormationCard = () => {
 
@@ -45,6 +46,7 @@ const FormationCard = () => {
         </div>
         <button className='formationCard__button' onClick={back}>Volver</button>
       </div>
+      <GoToTop />
     </section>
   )
 }

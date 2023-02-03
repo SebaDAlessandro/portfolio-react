@@ -51,10 +51,6 @@
     font-weight: bold;
 }
 
-.form__textarea-section {
-
-}
-
 .form__textarea {
     width: 85vw;
     margin: 5px 0;
@@ -95,18 +91,6 @@
 .contact__details-name {
     text-align: center;
     font-weight: bold;
-}
-
-.contact__details-email {
-
-}
-
-.contact__details-cel {
-
-}
-
-.contact__details-form {
-
 }
 
 .contact__details-map {
